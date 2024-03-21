@@ -7,6 +7,7 @@ const TARGET = './README.md';
 const tpl = getTemplate(TPL_FILE);
 
 const categories = {};
+const test = '';
 
 data.repositories.sort((a, b) => {
     const nameA = a.name.toUpperCase();
